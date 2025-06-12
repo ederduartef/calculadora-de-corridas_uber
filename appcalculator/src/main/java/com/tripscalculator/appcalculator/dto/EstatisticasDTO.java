@@ -1,9 +1,5 @@
 package com.tripscalculator.appcalculator.dto;
 
-import lombok.Data;
-import lombok.AllArgsConstructor;
-
-@Data
 
 public class EstatisticasDTO {
     private Long totalCorridas;
@@ -68,10 +64,18 @@ public class EstatisticasDTO {
     }
 
     // Getters
-    public Long getTotalCorridas() { return totalCorridas; }
-    public Double getValorTotal() { return valorTotal; }
-    public Double getDistanciaTotal() { return distanciaTotal; }
-    public Integer getTempoTotalMinutos() { return tempoTotalMinutos; }
+    public Long getTotalCorridas() {
+        return totalCorridas;
+    }
+    public Double getValorTotal() {
+        return valorTotal;
+    }
+    public Double getDistanciaTotal()
+    { return distanciaTotal;
+    }
+    public Integer getTempoTotalMinutos() {
+        return tempoTotalMinutos;
+    }
 
     public Double getValorMedioPorCorrida() { return valorMedioPorCorrida; }
     public Double getValorMedioPorKm() { return valorMedioPorKm; }

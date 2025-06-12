@@ -53,14 +53,30 @@ public class Corrida {
     public String getPlataforma() { return plataforma; }
 
     // Setters
-    public void setId(Long id) { this.id = id; }
-    public void setValor(Double valor) { this.valor = valor; }
-    public void setDistancia(Double distancia) { this.distancia = distancia; }
-    public void setDuracaoMinutos(Integer duracaoMinutos) { this.duracaoMinutos = duracaoMinutos; }
-    public void setDataHora(LocalDateTime dataHora) { this.dataHora = dataHora; }
-    public void setOrigem(String origem) { this.origem = origem; }
-    public void setDestino(String destino) { this.destino = destino; }
-    public void setPlataforma(String plataforma) { this.plataforma = plataforma; }
+    public void setId(Long id) {
+        this.id = id;
+    }
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+    public void setDistancia(Double distancia) {
+        this.distancia = distancia;
+    }
+    public void setDuracaoMinutos(Integer duracaoMinutos) {
+        this.duracaoMinutos = duracaoMinutos;
+    }
+    public void setDataHora(LocalDateTime dataHora) {
+        this.dataHora = dataHora;
+    }
+    public void setOrigem(String origem) {
+        this.origem = origem;
+    }
+    public void setDestino(String destino) {
+        this.destino = destino;
+    }
+    public void setPlataforma(String plataforma) {
+        this.plataforma = plataforma;
+    }
 
     // Métodos calculados
     public Double getValorPorKm() {
